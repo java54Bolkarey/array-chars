@@ -70,7 +70,7 @@ class ArrayCharTest {
 	  
 	    assertEquals(0, arrayChar1.compareToIgnoreCase(arrayChar2));
 	    assertTrue(arrayChar1.compareToIgnoreCase(arrayChar3) < 0);
-	    assertTrue(arrayChar2.compareToIgnoreCase(arrayChar3) > 0);
+	    assertTrue(arrayChar2.compareToIgnoreCase(arrayChar3) < 0);
 	}
 
 
